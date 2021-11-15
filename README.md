@@ -1,5 +1,6 @@
 Gewusst wie: Installieren Sie Apache Guacamole auf Debian/Ubuntu auf die einfachste Weise (Clientless Remote Desktop Gateway)
 
+
 1 Aktualisieren Sie das System mit den folgenden Befehlen
 
 	sudo apt-Update sudo apt upgrade -y
