@@ -3,7 +3,8 @@ Gewusst wie: Installieren Sie Apache Guacamole auf Debian/Ubuntu auf die einfach
 
 1 Aktualisieren Sie das System mit den folgenden Befehlen
 
-	sudo apt-Update sudo apt upgrade -y
+	sudo apt update
+	sudo apt upgrade -y
   
 2 Installieren Sie Apache Guacamole
 
@@ -21,13 +22,13 @@ Gewusst wie: Installieren Sie Apache Guacamole auf Debian/Ubuntu auf die einfach
   
 Nicht-interaktiv (Werte werden über cli bereitgestellt): 
 
-	./guac-install.sh --mysqlpwd Passwort --guacpwd Passwort --nomfa --installmysql 
+	./guac-install.sh --mysqlpwd password --guacpwd password --nomfa --installmysql 
   
 ODER
 
-	./guac-install.sh -r Passwort -gp Passwort -o -i 
+	./guac-install.sh -r password -gp password -o -i 
   
-Nach der Installation können wir auf Guacamole zugreifen, wenn Sie Folgendes öffnen: http://:8080/guacamole/
+Nach der Installation können wir auf Guacamole zugreifen, wenn Sie Folgendes öffnen: http://Ihre_IP_Adresse:8080/guacamole/
 
 
 Die Standardanmeldeinformationen sowohl als Benutzername als auch als Passwort sind: "guacadmin"!
